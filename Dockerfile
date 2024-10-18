@@ -2,14 +2,14 @@ FROM node:20
 
 WORKDIR /app
 
-COPY package.json .
+COPY package.json ./
 
-RUN npm install
+RUN yarn install
 
 COPY . .
 
 # VOLUME ["/app/logs"]
 
-EXPOSE 5000
+EXPOSE 5002
 
-CMD ["npm", "run", "dev"]
+CMD ["yarn", "dev"]

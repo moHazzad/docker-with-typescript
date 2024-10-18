@@ -20,9 +20,9 @@ app.get("/", (req: Request, res: Response) => {
         <link rel="stylesheet" href="/styles.css">
       </head>
       <body>
-        <h1>Welcome to the Docker Logs Viewer Page!</h1>
+        <h1>Welcome to the Docker Logs Viewer scsd!</h1>
         <p>Go to <a href="/logs/errors">Error Logs</a> or <a href="/logs/successes">Success Logs</a>.</p>
-      </body>
+      </body>sd
     </html>
   `);
 });
